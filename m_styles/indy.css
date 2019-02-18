@@ -38,7 +38,7 @@ p{
   
   #container {
     overflow: auto;
-    height: 600px;
+    height: 80fr;
     width: 80fr;
     background: #00ccff;
     position: relative;
