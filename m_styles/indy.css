@@ -22,20 +22,12 @@ body{
 h2{
     z-index: 0;
     position: absolute;
-    padding-left: 120px;
-    padding-right: 120px;
+    /*padding-left: 200px;*/
+    text-allign:center;
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
-p{
-    z-index: 0;
-    position: absolute;
-    padding-left: 120px;
-    padding-right: 120px;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-}
-  
+
   #container {
     overflow: auto;
     height: 600px;
