@@ -38,8 +38,8 @@ p{
   
   #container {
     overflow: auto;
-    height: 60fr;
-    width: 80fr;
+    height: 60%;
+    width: 80%;
     background: #00ccff;
     position: relative;
     z-index: 1;
@@ -48,6 +48,6 @@ p{
   video {
     position: absolute;
     left: 50%; top: 50%;
-    width: 80fr;
+    width: 80%;
     transform: translate(-50%, -50%);
   }
