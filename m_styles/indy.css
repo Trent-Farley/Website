@@ -22,7 +22,7 @@ body{
 h2{
     z-index: 0;
     position: absolute;
-    padding-left: 200px;
+    padding-right: 150px;
     text-allign:center;
     font-size: 30px;
     color: rgb(255, 255, 255);
