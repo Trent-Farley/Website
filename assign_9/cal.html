@@ -1,46 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" media="screen" href="cal.css" >  
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script
-    src="cal.js"></script>
-  <title>Calendar</title>
-  </head>
+  <title>Weather Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href= "cal.css">
+</head>
+
 <body>
 
-<div class="calendar" id="calendar">
-    <div class="calendar-btn month-btn" onclick="$('#months').toggle('fast')">
-        <span id="curMonth"></span>
-        <div id="months" class="months dropdown"></div>
+  <div class="container">
+  <header class="header">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" id="search-txt">
+      <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
     </div>
+  </header>
 
-    <div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
-        <span id="curYear"></span>
-        <div id="years" class="years dropdown"></div>
-    </div>
-
-    <div class="clear"></div>
-
-    <div class="calendar-dates">
-        <div class="days">
-            <div class="day label">SUN</div>
-            <div class="day label">MON</div>
-            <div class="day label">TUE</div>
-            <div class="day label">WED</div>
-            <div class="day label">THUR</div>
-            <div class="day label">FRI</div>
-            <div class="day label">SAT</div>
-
-            <div class="clear"></div>
-        </div>
-
-        <div id="calendarDays" class="days">
+  <main id="main">
+    
+    <div class="city-icon">
+      <div class="city-icon-holder">
+      <div id="city-name"></div>
+      <img src="" alt="" id="icon">
         </div>
     </div>
+    
+    <div class="temperature">
+      <div id="temp"></div>
+    </div>
+    
+    <div class="humidity">
+      <div id="humidity-div"></div>
+    </div>
+    
+  </main>
+  
 </div>
-
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <script  src="/assign_9/cal.js"></script>
 </body>
+
 </html>
