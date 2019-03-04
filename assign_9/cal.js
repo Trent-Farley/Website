@@ -1,3 +1,8 @@
+// inspired by a lot of help from OpenWeatherData forums/stackoverflow
+// Originally I wanted to make an entire calender, which was way more than 
+// I could chew so I settled on this. It doesnt take a state so I think
+// Albany Oregon is really Albany NY. It has problems, but it works decent. 
+
 const appKey = "f24f40b1c24505685fce3b8acd0fcffc";
 
 let searchButton = document.getElementById("search-btn");
@@ -40,6 +45,6 @@ function httpRequestAsync(url, callback)
         if (httpRequest.readyState == 4 && httpRequest.status == 200)
             callback(httpRequest.responseText);
     }
-    httpRequest.open("GET", url, true); // true for asynchronous 
+    httpRequest.open("GET", url, true); 
     httpRequest.send();
 }
