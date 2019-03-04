@@ -1,4 +1,4 @@
-// inspired by a lot of help from OpenWeatherData forums/stackoverflow
+// inspired by a lot of help from OpenWeatherMap forums/stackoverflow
 // Originally I wanted to make an entire calender, which was way more than 
 // I could chew so I settled on this. It doesnt take a state so I think
 // Albany Oregon is really Albany NY. It has problems, but it works decent. 
