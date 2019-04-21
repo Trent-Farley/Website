@@ -1,5 +1,7 @@
 h1{
-    padding: 0%;
+    padding: 8%;
+    background-color: rgb(110, 226, 255);
+    color: rgb(31, 63, 71);
 }
 .navbar {
     display: grid;
@@ -53,23 +55,26 @@ body{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
   }
   
   .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.5;
   }
   
   .container:hover .middle {
-    opacity: 1;
+    opacity: .5;
   }
   
   .text {
-    background-color: rgb(56, 56, 56);
-    color: white;
+    background-color: rgb(253, 249, 10);
+    color: rgb(0, 0, 0);
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 16px 32px;
+    opacity: 1;
+    
   }
